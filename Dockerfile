@@ -1,5 +1,16 @@
 FROM rancher/cli:v2.0.4
 
+LABEL maintainer="KPN D-Nitro team"
+
+ARG VCS_REF
+ARG BUILD_DATE
+
+##### Metadata
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="https://github.com/kpn/docker-rancher" \
+      org.label-schema.build-date=$BUILD_DATE \
+      org.label-schema.docker.dockerfile="/Dockerfile"
+
 ##### prepare
 RUN apk add --update bash \
  && apk add --update -t deps curl \
