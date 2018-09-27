@@ -2,7 +2,7 @@
 
 ## Overview
 
-Docker image containing rancher client, helm and kubectl. This image is available on [DockerHub](https://hub.docker.com/r/kpnnv/docker-rancher/).
+Docker image containing rancher client, helm client and kubectl. This image is available on [DockerHub](https://hub.docker.com/r/kpnnv/docker-rancher/).
 
 ## Build image
 ```shell
