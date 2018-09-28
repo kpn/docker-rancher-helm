@@ -1,5 +1,5 @@
 REPOSITORY=kpnnv
-IMAGE=docker-rancher
+IMAGE=docker-rancher-helm
 
 docker/build/%:
 	docker build \
