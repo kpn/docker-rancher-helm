@@ -4,7 +4,7 @@
 
 Docker image containing rancher client, helm client and kubectl. This image is available on [DockerHub](https://hub.docker.com/r/kpnnv/docker-rancher/).
 
-### Build image
+### build image
 ```shell
 $ make docker/build/<TAG>
 ```
